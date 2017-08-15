@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+  "name": "Github2PyCharm",
+  "version": "1.0",
+
+  "description": "opens files viewed in Github in PyCharm",
+
+  "icons": {
+    "48": "icons/icon.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.github.com/*"],
+      "js": ["pycharm.js"]
+    }
+  ],
+
+  "permissions": [
+    "*://127.0.0.1/*"
+  ]
+
+}

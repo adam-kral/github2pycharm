@@ -1,0 +1,10 @@
+PYCHARM_EXECUTABLE = '/Applications/PyCharm.app/Contents/MacOS/pycharm'  # Windows 'PyCharm.exe' according to PyCharm docs
+
+# Key -> github repository name, value -> str or dict as in example
+REPOSITORIES = {
+    'github2pycharm': '/Users/adam/github2pycharm',  # same repository path as PyCharm project path
+    'projectx': {
+        'repository_root': '/Users/adam/projectx/source',  # repository root can differ from the project root
+        'project_root': '/Users/adam/projectx'
+    }
+}
